@@ -32,6 +32,7 @@ z-index: 99;
 }
 
 .navigation {
+    padding-right: 25px;
     display: flex;
     align-items: center;
 }
@@ -42,7 +43,7 @@ z-index: 99;
     color: black;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .navigation a::after {
