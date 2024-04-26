@@ -24,7 +24,7 @@ header {
     font-size: 2em;
     color: black;
     user-select: none;
-    margin-right: 5px; /* Add some space between the logo and navigation */
+    margin-right: auto; /* Add some space between the logo and navigation */
 }
 
 .navigation {
@@ -38,7 +38,7 @@ header {
     color: black;
     text-decoration: none;
     font-weight: 500;
-    margin-right: 5px; /* Increase spacing between navigation items */
+    margin-right: 25px; /* Increase spacing between navigation items */
 }
 
 .navigation a::after {
