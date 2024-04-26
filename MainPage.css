@@ -14,7 +14,7 @@ position: Fixed;
 top: 0;
 left: 0;
 width: 100%; 
-padding: 10px 100px;
+padding: 20px 100px;
 background-color: rgb(255, 255, 76);
 display: flex;
 justify-content: space-between;
@@ -27,6 +27,7 @@ z-index: 99;
     font-size: 2em;
     color: black;
     user-select: none;
+    position: Left;
     
 
 }
@@ -34,7 +35,7 @@ z-index: 99;
 .navigation {
 
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
 .navigation a {
