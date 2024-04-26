@@ -32,12 +32,12 @@ z-index: 99;
 }
 
 .navigation a {
-    position: relative;
+    position: center;
     font-size: 1.1em;
     color: black;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 0%;
+    margin-left: 20;
 
 
 }
@@ -47,7 +47,7 @@ z-index: 99;
     content: '';
     position: absolute;
     height: 3px;
-    background-color: black;
+    background-color: white;
     weight: 100%;
     border-radius: 5px;
 }
