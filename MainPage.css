@@ -14,7 +14,7 @@ position: Fixed;
 top: 0;
 left: 0;
 width: 100%; 
-padding: 20px 100px;
+padding: 20px 50px;
 background-color: rgb(255, 255, 76);
 display: flex;
 justify-content: space-between;
@@ -32,7 +32,7 @@ z-index: 99;
 }
 
 .navigation {
-    padding-right: 25px;
+
     display: flex;
     align-items: center;
 }
