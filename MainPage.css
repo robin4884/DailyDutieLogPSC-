@@ -29,7 +29,7 @@ header {
 
 .navigation {
     display: flex;
-    align-items: left;
+    align-items: center; /* Align items to the center vertically */
 }
 
 .navigation a {
@@ -68,7 +68,7 @@ header {
     font-size: 1.1em;
     color: black;
     font-weight: 500;
-    margin-left: 25px; /* Adjust the margin as needed */
+    margin-left: auto; /* Push the button to the right */
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -76,3 +76,4 @@ header {
     background-color: #fff;
     color: black;
 }
+
