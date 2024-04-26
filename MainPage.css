@@ -1,32 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 body {
     margin: 0;
-    Padding: 0;
+    padding: 0;
     box-sizing: border-box; 
-    font-family: 'Poppins',sans-serif; 
-
+    font-family: 'Poppins', sans-serif; 
 }
 
 header {
-
-position: Fixed;
-top: 0;
-left: 0;
-width: 100%; 
-padding: 20px 100px;
-background-color: rgb(255, 255, 76);
-display: flex;
-justify-content: space-between;
-align-items: center;
-z-index: 99;
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    padding: 20px 100px;
+    background-color: rgb(255, 255, 76);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
 }
 
 .logo {
     font-size: 2em;
     color: black;
-    user-select: none;  
+    user-select: none;
+    margin-right: 25px; /* Add some space between the logo and navigation */
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
 }
 
 .navigation a {
@@ -35,7 +38,7 @@ z-index: 99;
     color: black;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 25px;
+    margin-right: 40px; /* Increase spacing between navigation items */
 }
 
 .navigation a::after {
@@ -52,17 +55,10 @@ z-index: 99;
 
 .navigation a:hover::after {
     width: 100%;
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    height: 3px;
-    background-color: white;
-    border-radius: 5px;
 }
 
 .navigation .btnlogin-popup {
-    width: 130px;
+    min-width: 75px; /* Adjust the width as needed */
     height: 50px;
     background: transparent;
     border: 2px solid white;
@@ -72,8 +68,8 @@ z-index: 99;
     font-size: 1.1em;
     color: black;
     font-weight: 500;
-    margin-left: 40px;
-    transition: 5s
+    margin-left: 25px; /* Adjust the margin as needed */
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .navigation .btnlogin-popup:hover {
