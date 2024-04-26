@@ -38,7 +38,7 @@ header {
     color: black;
     text-decoration: none;
     font-weight: 500;
-    margin-right: 40px; /* Increase spacing between navigation items */
+    margin-right: 25px; /* Increase spacing between navigation items */
 }
 
 .navigation a::after {
@@ -50,7 +50,7 @@ header {
     height: 3px;
     background-color: white;
     border-radius: 5px;
-    transition: width 0.3s;
+    transition: width 0.5s;
 }
 
 .navigation a:hover::after {
