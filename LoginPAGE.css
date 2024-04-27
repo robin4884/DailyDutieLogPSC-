@@ -31,6 +31,7 @@ body {
     width: 100%;
     margin-bottom: 20px;
     position: relative;
+    text-align: center;
 }
 
 .input-box input {
@@ -43,6 +44,7 @@ body {
     color: white;
     padding: 0 20px;
     margin-left: 50px;
+    text-align: center;
 }
 
 .input-box input::placeholder {
@@ -51,7 +53,7 @@ body {
 
 .input-box i {
     position: absolute;
-
+    text-align: center;
     transform: translateY(-50%);
     font-size: 20px;
 
