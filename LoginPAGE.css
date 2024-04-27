@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -7,19 +9,16 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("PSCFoxValley.jpg");
-    position: fixed;
-    background-size: cover;
+    background: url("PSCFoxValley.jpg") center center/cover;
 }
 
 .wrapper {
     width: 450px;
-    background: transparent;
-    opacity: 5;
+    background: rgba(0, 0, 0, 0.5); /* Use rgba for transparent background with opacity */
     color: white;
     border-radius: 12px;
-    border-color: transparent;
     padding: 30px 40px;
+    border: none; /* Remove border */
 }
 
 .wrapper h1 {
@@ -27,29 +26,23 @@ body {
     text-align: center;
     margin-bottom: 30px;
 }
-.wrapper .input-box{
+
+.wrapper .input-box {
     width: 100%;
-    padding: 20px 20px;
+    padding: 10px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-}
-.wrapper .input-box[type=text] [placeholder="Username"]{
-  border: 2px solid rgb(255, 255, 255);
-  border-radius: 4px;
-  background-color: transparent;
-  color: white;
-  background-image: url('');
-  transition: 0.4s ease-in-out;
-}
-.input-box [type=text] [placeholder="password"]{
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid white;
     border-radius: 4px;
     background-color: transparent;
     color: white;
-    background-image: url('');
     transition: 0.4s ease-in-out;
-    padding: 10px 20px;
-  }
+}
+
+.wrapper .input-box[type="text"]::placeholder,
+.wrapper .input-box[type="password"]::placeholder {
+    color: white;
+}
 
 .wrapper .btn {
     width: 100%;
@@ -65,3 +58,4 @@ body {
     font-weight: 600;
     margin-top: 20px;
 }
+
