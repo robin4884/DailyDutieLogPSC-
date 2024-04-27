@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("PSCFoxValley.jpg") center center/cover;
+    background: url("PSCFoxValley.jpg");
 }
 
 .wrapper {
@@ -17,8 +17,8 @@ body {
     background: rgba(0, 0, 0, 0.5); /* Use rgba for transparent background with opacity */
     color: white;
     border-radius: 12px;
+    position: center;
     padding: 30px 40px;
-    border: none; /* Remove border */
 }
 
 .wrapper h1 {
