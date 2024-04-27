@@ -40,6 +40,16 @@ body {
     transition: 0.4s ease-in-out;
     text-align: center;
 }
+.input {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+    text-align: center;
+
+}
 
 .input [type="text"]::placeholder,
 .input [type="password"]::placeholder {
