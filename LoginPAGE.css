@@ -12,6 +12,14 @@ body {
     background: url("PSCFoxValley.jpg");
     background-size: cover;
 }
+header{
+    position: Fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: yellow;
+}
 
 .wrapper {
     width: 450px;
