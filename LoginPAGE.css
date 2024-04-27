@@ -10,7 +10,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: url("PSCFoxValley.jpg");
-    background-position: relative; 
+    background-position: center; 
 }
 
 .wrapper {
@@ -43,10 +43,10 @@ body {
 
 .input [type="text"]::placeholder,
 .input [type="password"]::placeholder {
-    color: white;
+    color: transparent;
 }
 
-.wrapper .btn {
+.btn {
     width: 100%;
     height: 45px;
     background-color: white;
