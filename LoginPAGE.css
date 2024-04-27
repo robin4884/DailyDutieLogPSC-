@@ -27,13 +27,13 @@ body {
     text-align: center;
     margin-bottom: 30px;
 }
-.input-box{
+.wrapper .input-box{
     width: 100%;
-    padding: 12px 20px;
+    padding: 20px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
-.input-box[type=text] [placeholder="Username"]{
+.wrapper .input-box[type=text] [placeholder="Username"]{
   border: 2px solid rgb(255, 255, 255);
   border-radius: 4px;
   background-color: transparent;
