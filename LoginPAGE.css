@@ -24,12 +24,21 @@ body {
     text-align: center;
     margin-bottom: 30px;
 }
-
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background: #ffffff;
+    opacity: 1;
+}
 .input-box {
     width: 100%;
     height: 50px;
-    margin: 0 auto; /* Center horizontally */
+    margin: 0 auto; 
     position: relative;
+    padding: 20px 45px 20px 20px;
 }
 
 .input-box input {
@@ -47,15 +56,6 @@ body {
 .input-box input::placeholder {
     color: white;
 }
-
-.input-box .i {
-    position: absolute;
-    right: 5px; /* Adjusted position */
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
-}
-
 .wrapper .btn {
     width: 100%;
     height: 45px;
