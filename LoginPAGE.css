@@ -10,7 +10,6 @@ body {
     align-items: center;
     min-height: 100vh;
     background: url("PSCFoxValley.jpg");
-    position: fixed;
     background-size: cover;
 }
 
