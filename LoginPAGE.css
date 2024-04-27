@@ -18,7 +18,7 @@ body {
     opacity: 5;
     color: white;
     border-radius: 12px;
-    border-color: white;
+    border-color: transparent;
     padding: 30px 40px;
 }
 
