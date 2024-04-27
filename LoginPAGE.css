@@ -7,12 +7,11 @@ body, html {
 }
 
 body {
-    background: url("PSCFoxValley.jpg");
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    background: url("PSCFoxValley.jpg");
+    background-size: cover;
 }
 
 .wrapper {
@@ -21,9 +20,7 @@ body {
     color: white;
     border-radius: 12px;
     padding: 30px 40px;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    margin: auto; /* Center the wrapper horizontally */
 }
 
 .wrapper h1 {
