@@ -27,7 +27,7 @@ body {
     margin-bottom: 30px;
 }
 
-.wrapper .input-box {
+.input-box {
     width: 100%;
     padding: 10px 20px;
     margin: 8px 0;
@@ -40,8 +40,8 @@ body {
     text-align: center;
 }
 
-.wrapper .input-box[type="text"]::placeholder,
-.wrapper .input-box[type="password"]::placeholder {
+.input-box[type="text"]::placeholder,
+.input-box[type="password"]::placeholder {
     color: white;
 }
 
