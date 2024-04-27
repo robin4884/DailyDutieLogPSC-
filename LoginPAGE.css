@@ -1,15 +1,12 @@
-body, html {
-    height: 100%;
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-}
-
-body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
     background: url("PSCFoxValley.jpg");
     background-size: cover;
 }
@@ -20,32 +17,29 @@ body {
     color: white;
     border-radius: 12px;
     padding: 30px 40px;
-    margin: auto; /* Center the wrapper horizontally */
 }
 
 .wrapper h1 {
     font-size: 36px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 30px; /* Added margin to create space below the heading */
 }
 
 .input-box {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Increased margin between input boxes */
     position: relative;
-    display: flex;
-    justify-content: center; /* Center the content horizontally */
 }
 
 .input-box input {
-    width: 80%;
+    width: 100%;
     height: 50px;
     background: transparent;
     border: 2px solid white;
     border-radius: 40px;
     font-size: 16px;
     color: white;
-    padding: 0 20px;
+    padding: 0 20px; /* Adjusted padding to create space inside the input */
 }
 
 .input-box input::placeholder {
@@ -72,5 +66,5 @@ body {
     font-size: 16px;
     color: #333;
     font-weight: 600;
-    margin-top: 20px;
+    margin-top: 20px; /* Added margin to create space above the button */
 }
