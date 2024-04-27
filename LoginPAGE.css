@@ -8,7 +8,6 @@ body {
     align-items: center;
     min-height: 100vh;
     background: url("PSCFoxValley.jpg");
-
     background-size: cover;
 }
 
@@ -24,7 +23,6 @@ body {
     font-size: 36px;
     text-align: center;
     margin-bottom: 30px;
-
 }
 
 .input-box {
@@ -35,7 +33,7 @@ body {
 }
 
 .input-box input {
-    width: calc(100% - 50px); /* Adjusted width to accommodate icon */
+    width: 90%; /* Adjusted width */
     height: 100%;
     background: transparent;
     border: 2px solid white;
@@ -71,20 +69,4 @@ body {
     color: #333;
     font-weight: 600;
     margin-top: 20px;
-}
-
-.wrapper .btn {
-    width: 100%;
-    height: 45px;
-    background-color: white;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    box-shadow: 0 0 10px black;
-    cursor: pointer;
-    font-size: 16px;
-    color: #333;
-    font-weight: 600;
-    margin-top: 20px;
-
 }
