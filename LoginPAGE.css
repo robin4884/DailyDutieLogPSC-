@@ -10,6 +10,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: url("PSCFoxValley.jpg");
+    background-position: relative; 
 }
 
 .wrapper {
@@ -40,8 +41,8 @@ body {
     text-align: center;
 }
 
-.input-box[type="text"]::placeholder,
-.input-box[type="password"]::placeholder {
+.input [type="text"]::placeholder,
+.input [type="password"]::placeholder {
     color: white;
 }
 
