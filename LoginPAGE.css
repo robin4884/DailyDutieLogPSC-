@@ -31,13 +31,14 @@ form
     margin-right: auto;
     text-align: left;
     background: #ffffff;
-    opacity: 1;
+
 }
 .input-box {
-    width: 100%;
+    width: 50%;
     height: 50px;
     margin: 0 auto; 
     position: relative;
+    background: #ffffff;
     padding: 20px 45px 20px 20px;
 }
 
