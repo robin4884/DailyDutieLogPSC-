@@ -34,7 +34,7 @@ body {
 }
 
 .input-box input {
-    width: 100%;
+    width: 500%;
     height: 50px;
     background: transparent;
     border: 2px solid white;
@@ -51,11 +51,10 @@ body {
 
 .input-box i {
     position: absolute;
-    right: 20px;
-    top: 50%;
+
     transform: translateY(-50%);
     font-size: 20px;
-    margin-right: 50px;
+
 }
 
 .wrapper .btn {
