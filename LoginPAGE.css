@@ -17,7 +17,7 @@ body {
     background: rgba(0, 0, 0, 0.5); /* Use rgba for transparent background with opacity */
     color: white;
     border-radius: 12px;
-    position: center;
+    margin: 0 auto;
     padding: 30px 40px;
 }
 
