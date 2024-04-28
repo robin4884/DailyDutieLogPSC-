@@ -49,6 +49,8 @@ header{
     text-align: center;
 }
 
-.p .underline-on-hover:hover {
+.p :hover {
     text-decoration: underline;
+    color: #ffffff;
+    transition: color 0.2s;
 }
