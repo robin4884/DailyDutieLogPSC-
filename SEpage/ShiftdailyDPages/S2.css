@@ -9,8 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: rgb(255, 0, 0);
-    background-size: cover;
+    background-color: rgb(255, 0, 0);
 }
 header{
     position: Fixed;

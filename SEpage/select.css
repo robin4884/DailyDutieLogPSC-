@@ -48,3 +48,7 @@ header{
     transition: 0.4s ease-in-out;
     text-align: center;
 }
+
+.underline-on-hover:hover {
+    text-decoration: underline;
+}
