@@ -49,6 +49,6 @@ header{
     text-align: center;
 }
 
-.underline-on-hover:hover {
+.p .underline-on-hover:hover {
     text-decoration: underline;
 }
