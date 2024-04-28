@@ -20,3 +20,29 @@ header{
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 10px black;
 }
+.wrapper {
+    width: 450px;
+    background: rgba(0, 0, 0, 0.5); /* Use rgba for transparent background with opacity */
+    color: white;
+    border-radius: 12px;
+    margin: 0 auto;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.p {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 40px;
+    background-color: transparent;
+    color: white;
+    transition: 0.4s ease-in-out;
+    text-align: center;
+}
