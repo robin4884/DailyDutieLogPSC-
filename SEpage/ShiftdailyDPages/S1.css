@@ -44,7 +44,7 @@ header {
 }
 
 .wrapper p {
-    font-size: 14px;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 15px;
 }
@@ -58,6 +58,7 @@ header {
 }
 
 .p1 {
+    font-size: 18px;
     width: 100%;
     padding: 10px 0;
     margin: 8px 0;
@@ -67,7 +68,7 @@ header {
 }
 
 .p3 {
-    font-size: 8px;
+    font-size: 14px;
     width: 100%;
     padding: 10px 0;
     margin: 8px 0;
@@ -80,3 +81,4 @@ select {
     width: 100px; /* Adjust width as needed */
     margin-right: 10px; /* Adjust spacing between selects */
 }
+
