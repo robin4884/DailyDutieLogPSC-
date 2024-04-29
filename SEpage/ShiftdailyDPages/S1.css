@@ -6,8 +6,8 @@ body {
 
     font-family: "Poppins", sans-serif;
     display: flex;
+
     min-height: 100vh;
-    overflow-y: auto;
     background-color: rgb(255, 0, 0);
 }
 header{
@@ -24,7 +24,7 @@ header{
     background: rgba(0, 0, 0, 0.5); /* Use rgba for transparent background with opacity */
     color: white;
     border-radius: 12px;
-    margin: 0 auto;
+    margin: 100 px auto 0;
     padding: 30px 40px;
 }
 
