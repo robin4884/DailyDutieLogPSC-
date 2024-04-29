@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    padding: 0;
+    padding: 0 160px;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     display: flex;
