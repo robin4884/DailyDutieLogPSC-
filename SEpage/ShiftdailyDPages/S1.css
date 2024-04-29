@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
-
 body {
     margin: 0;
     padding: 0;
-
     font-family: "Poppins", sans-serif;
     display: flex;
-
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
     background-color: rgb(255, 0, 0);
 }
-header{
-    position: Fixed;
+
+header {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -19,12 +18,18 @@ header{
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 10px black;
 }
+
+.container {
+    height: 80vh; /* Set the height of the container */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
 .wrapper {
     width: 450px;
-    background: rgba(0, 0, 0, 0.5); /* Use rgba for transparent background with opacity */
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     border-radius: 12px;
-    margin: 100 px auto 0;
+    margin: 0 auto;
     padding: 30px 40px;
 }
 
@@ -33,11 +38,13 @@ header{
     text-align: center;
     margin-bottom: 30px;
 }
+
 .wrapper p {
     font-size: 14px;
     text-align: center;
     margin-bottom: 15px;
 }
+
 .p {
     width: 100%;
     padding: 10px 20px;
@@ -45,6 +52,7 @@ header{
     color: white;
     text-align: left;
 }
+
 .p1 {
     width: 100%;
     padding: 10px 0;
@@ -52,6 +60,7 @@ header{
     color: white;
     text-align: left;
 }
+
 select {
     display: inline-block;
     width: 100px; /* Adjust width as needed */
