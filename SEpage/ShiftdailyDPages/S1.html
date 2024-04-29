@@ -41,7 +41,7 @@
                 <option value="Not Done">Not Done</option>
                 <option value="N/A">N/A</option>
             </select>
-            
+
         </div>
 
         <br>
@@ -61,17 +61,23 @@
         // Create a CSV string
         var csvContent = "data:text/csv;charset=utf-8,";
 
+        // Create an array to hold the rows of data
+        var rows = [];
+
         // Get the form field names as an array
         var fieldNames = Array.from(formData.keys());
 
         // Add column names to the CSV content
-        csvContent += fieldNames.join(',') + '\n';
+        rows.push(fieldNames.join(','));
 
         // Get the form field values as an array
         var fieldValues = Array.from(formData.values());
 
-        // Add field values to the CSV content
-        csvContent += fieldValues.join(',') + '\n';
+        // Add field values to the rows array
+        rows.push(fieldValues.join(','));
+
+        // Combine rows into CSV content
+        csvContent += rows.join('\n');
 
         // Create a temporary link element to download the CSV file
         var link = document.createElement('a');
