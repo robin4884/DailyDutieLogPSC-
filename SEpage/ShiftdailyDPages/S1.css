@@ -65,6 +65,15 @@ header {
     text-align: left;
 }
 
+.p3 {
+    font-size: 11px;
+    width: 100%;
+    padding: 10px 0;
+    margin: 8px 0;
+    color: white;
+    text-align: left;
+}
+
 select {
     display: inline-block;
     width: 100px; /* Adjust width as needed */
