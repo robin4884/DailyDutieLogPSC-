@@ -79,12 +79,17 @@
         link.href = encodeURI(csvContent);
         link.target = '_blank';
         link.download = 'survey_results.csv';
+        document.body.appendChild(link); // Append the link to the body
         link.click();
+
+        // Remove the link from the body
+        document.body.removeChild(link);
 
         // Reset the form
         this.reset();
     });
 </script>
+
 
 </body>
 </html>
