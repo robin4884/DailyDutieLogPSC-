@@ -47,21 +47,17 @@ header {
 }
 
     
-.form-container .h1 {
-        font-size: 36px;
-        text-align: center;
-        margin-bottom: 30px;
-        color: rgb(255, 255, 255);
-    }
-
+.h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px; /* Add margin to create space below the header */
+}
 .p {
-        width: 100%;
-        padding: 10px 20px;
-        margin: 8px 0;
-        color: white;
-        text-align: center;
-    }
-
+    color: white; /* Set text color to white */
+    text-align: center; /* Center the text */
+    margin-bottom: 20px; /* Add margin to create space below the paragraph */
+}
+    
 .p {
     width: 100%;
     padding: 10px 20px;
