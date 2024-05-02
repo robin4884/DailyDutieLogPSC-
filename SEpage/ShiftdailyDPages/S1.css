@@ -30,6 +30,20 @@ header {
     
 }
 
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.form-container label,
+.form-container input,
+.form-container textarea,
+.form-container button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
 
 .container .h1 {
     font-size: 36px;
