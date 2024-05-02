@@ -31,16 +31,18 @@ header {
 }
 
 
-.h1 {
+.container .h1 {
     font-size: 36px;
     text-align: center;
     margin-bottom: 30px;
+    color: white;
 }
 
-.p {
+.container .p {
     font-size: 20px;
     text-align: center;
     margin-bottom: 15px;
+    color: white;
 }
 
 .p {
