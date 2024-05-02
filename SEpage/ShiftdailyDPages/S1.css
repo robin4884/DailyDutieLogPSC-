@@ -32,7 +32,8 @@ header {
 }
     
 .form-container {
-    width: 300px;
+    max-width: 500px; /* Set a maximum width for the form container */
+    width: 80%; /* Set the width to a percentage of the viewport width */
     margin: 0 auto;
     color: white;
 }
