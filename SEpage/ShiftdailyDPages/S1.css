@@ -10,6 +10,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: url("RedBG.jpg");
+    background-size: cover;
 
 }
 
@@ -24,7 +25,7 @@ header {
 }
 
 .container {
-    height: 40vh; /* Set the height of the container */
+    height: 50vh; /* Set the height of the container */
     overflow-y: auto; /* Enable vertical scrolling */
     
 }
@@ -76,4 +77,3 @@ header {
     color: white;
     text-align: left;
 }
-
