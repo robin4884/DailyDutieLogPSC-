@@ -45,14 +45,14 @@ header {
 }
 
 
-.container .h1 {
+.form-container .h1 {
     font-size: 36px;
     text-align: center;
     margin-bottom: 30px;
     color: white;
 }
 
-.container .p {
+.form-container .p {
     font-size: 20px;
     text-align: center;
     margin-bottom: 15px;
