@@ -11,7 +11,6 @@ body {
     min-height: 100vh;
     background: url("RedBG.jpg");
     background-size: cover;
-
 }
 
 header {
@@ -25,14 +24,20 @@ header {
 }
 
 .container {
-    height: 50vh; /* Set the height of the container */
+    height: 100%; /* Set the height of the container to 100% */
     overflow-y: auto; /* Enable vertical scrolling */
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .form-container {
     width: 300px;
-    margin: 0 auto;
+    margin: 20px auto; /* Add some margin to center the form */
+    background-color: rgba(255, 255, 255, 0.5); /* Add a background color with some transparency */
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .form-container label,
@@ -43,7 +48,6 @@ header {
     width: 100%;
     margin-bottom: 10px;
 }
-
 
 .form-container .h1 {
     font-size: 36px;
