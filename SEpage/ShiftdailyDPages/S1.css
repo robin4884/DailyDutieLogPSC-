@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: rgb(255, 0, 0);
+    background: url("RedBG.jpg");
 
 }
 
@@ -24,7 +24,7 @@ header {
 }
 
 .container {
-    height: 60vh; /* Set the height of the container */
+    height: 40vh; /* Set the height of the container */
     overflow-y: auto; /* Enable vertical scrolling */
     
 }
