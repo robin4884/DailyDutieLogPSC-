@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("DSDHomePage.PNG");
+    background-size: cover;
+}
+header{
+    position: Fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 150px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px black;
+}
+
+.wrapper {
+    width: 450px;
+    background: rgba(255, 255, 255, 0.43); /* Use rgba for transparent background with opacity */
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    margin: 0 auto;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+ .p {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 40px;
+    background-color: transparent;
+    color: white;
+    transition: 0.4s ease-in-out;
+    text-align: center;
+}
+
+.p :hover {
+    text-decoration: underline;
+    color: #ffffff;
+    transition: color 0.2s;
+}
