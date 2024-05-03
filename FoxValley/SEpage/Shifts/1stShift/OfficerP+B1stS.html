@@ -24,10 +24,17 @@
 
                 <h1>07:00 - 15:00</h1>
 
+                <div class="p3">
+                    <label for="DandDate">Day and Date:</label><br>
+                    <input type="text" id="DandDate" name="DayandDate">
+
+                </div>
+
+
                 <div class="p3 ">
-                    <table class="border">
+                    <table border="1">
                         <tr>
-                            <th></th>
+                            <th>Officer</th>
                             <th>0700</th>
                             <th>0800</th>
                             <th>0900</th>
@@ -36,7 +43,7 @@
                             <th>1200</th>
                             <th>1300</th>
                             <th>1400</th>
-                            <th></th>
+                            <th>1500</th>
                         </tr>
                         <tr>
                             <th class="select" ALIGN="center"><select name="UnitNumber">
@@ -1424,16 +1431,6 @@
                                     <option value="39">39</option>
                                 </select>
                             </th>
-                            <td class="select" ALIGN="center">
-                                <select name="gname">
-                                    <option value="Float">F</option>
-                                    <option value="Macy">M</option>
-                                    <option value="JCPenny / Food Court">JF</option>
-                                    <option value="Round1">R1</option>
-                                    <option value="Dispatch">D</option>
-                                    <option value="Full Mall">FM</option>
-                                </select>
-                            </td>
                             <td class="select" ALIGN="center">
                                 <select name="gname">
                                     <option value="Float">F</option>
@@ -1572,7 +1569,7 @@
             var link = document.createElement('a');
             link.href = encodeURI(csvContent);
             link.target = '_blank';
-            link.download = 'DailyLog1stShift.csv';
+            link.download = 'Officer_Placement_&_Breaks_Log_1st_Shift.csv';
             document.body.appendChild(link); // Append the link to the body
             link.click();
 
