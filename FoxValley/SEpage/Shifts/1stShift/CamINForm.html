@@ -588,63 +588,63 @@
 
 
                 <div class="p3">
-                    <label for="OfficerInitials"></label>">Officer Initials:"></label><br>
+                    <label for="OfficerInitials"></label>Officer Initials:</label><br>
                     <input type="text" id="OfficerInitials" name="OfficerInitials:">
 
-            </div>
+                </div>
 
-            <br>
+                <br>
 
-            <button type="submit">Submit</button>
-        </form>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
     </div>
-</div>
 
 
-<script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
-<script>
-    document.getElementById('surveyForm').addEventListener('submit', function (e) {
-        e.preventDefault(); // Prevent form submission
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+    <script>
+        document.getElementById('surveyForm').addEventListener('submit', function (e) {
+            e.preventDefault(); // Prevent form submission
 
-        // Get form data
-        var formData = new FormData(this);
+            // Get form data
+            var formData = new FormData(this);
 
-        // Create a CSV string
-        var csvContent = "data:text/csv;charset=utf-8,";
+            // Create a CSV string
+            var csvContent = "data:text/csv;charset=utf-8,";
 
-        // Create an array to hold the rows of data
-        var rows = [];
+            // Create an array to hold the rows of data
+            var rows = [];
 
-        // Get the form field names as an array
-        var fieldNames = Array.from(formData.keys());
+            // Get the form field names as an array
+            var fieldNames = Array.from(formData.keys());
 
-        // Add column names to the CSV content
-        rows.push(fieldNames.join(','));
+            // Add column names to the CSV content
+            rows.push(fieldNames.join(','));
 
-        // Get the form field values as an array
-        var fieldValues = Array.from(formData.values());
+            // Get the form field values as an array
+            var fieldValues = Array.from(formData.values());
 
-        // Add field values to the rows array
-        rows.push(fieldValues.join(','));
+            // Add field values to the rows array
+            rows.push(fieldValues.join(','));
 
-        // Combine rows into CSV content
-        csvContent += rows.join('\n');
+            // Combine rows into CSV content
+            csvContent += rows.join('\n');
 
-        // Create a temporary link element to download the CSV file
-        var link = document.createElement('a');
-        link.href = encodeURI(csvContent);
-        link.target = '_blank';
-        link.download = 'Officer_Placement_&_Breaks_Log_1st_Shift.csv';
-        document.body.appendChild(link); // Append the link to the body
-        link.click();
+            // Create a temporary link element to download the CSV file
+            var link = document.createElement('a');
+            link.href = encodeURI(csvContent);
+            link.target = '_blank';
+            link.download = 'Camera_Inspection_Form_1st_shift.csv';
+            document.body.appendChild(link); // Append the link to the body
+            link.click();
 
-        // Remove the link from the body
-        document.body.removeChild(link);
+            // Remove the link from the body
+            document.body.removeChild(link);
 
-        // Reset the form
-        this.reset();
-    });
-</script>
+            // Reset the form
+            this.reset();
+        });
+    </script>
 
 
 </body>
